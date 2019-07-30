@@ -1,13 +1,64 @@
 // Main Content
 
 .container-home {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto; 
+    
+    .top-section {
+        .flex-box(flex, start);
+        align-items: center;
+        background-image: url('../assets/christopher-jolly-GqbU78bdJFM-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 360px;
+        padding: 5%;
+
+        .sleep-title{
+            margin: 2% 0%;
+        }
+
+        .sleep-subtitle{
+            margin: 4% 0%;
+            width: 330px;
+            line-height: 150%;
+        }
+
+        .main-cta {
+            margin: 2% 0%;
+            color: #f6f4f9;
+            font-size: 16px;
+            background-color: #1E8AD2;
+            width: 240px;
+            height: 40px;
+            border-radius: 5px;
+            border-style: none;
+        }
+    }
+    
     .lower-section {
         .flex-box(flex, space-evenly);
+        flex-wrap: wrap;
+        padding: 0 1% 2% 0; 
 
-        div {
-            height: 250px;
-            width: 250px;
+        .feature-description{
+            width: 100%;
+            margin: 2%;
+            padding: 0;
+            font-size: 3rem; 
+        }
+
+        div { 
+            .flex-box(flex, center);
+            align-items: flex-end;
+            height: 200px;
+            width: 300px;
             background-color: @div-bg;
+            margin: 1%;
+
+            h3{
+                padding: 10%;
+            }
         }
     }
 }
