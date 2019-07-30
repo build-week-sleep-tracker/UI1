@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="82px" viewBox="0 0 74 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Cloud Logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-3.000000, 0.000000)">
+            <g id="Cloud-Logo" transform="translate(3.000000, 2.000000)">
+                <circle id="Oval" fill="#6F5BE0" cx="8.5" cy="63.5" r="5.5"></circle>
+                <circle id="Oval" fill="#6F5BE0" cx="3.5" cy="76.5" r="3.5"></circle>
+                <path d="M14.3943081,19.8890352 C16.9182028,6.6296784 21.0775637,0 26.872391,0 C32.6672183,0 37.9298559,2.5368095 42.6603039,7.6104285 C53.7149151,4.08885067 61.9628427,4.08885067 67.4040869,7.6104285 C72.845331,11.1320063 74.1363317,20.6013729 71.2770891,36.0185283 C74.907637,45.8817619 74.907637,52.9000546 71.2770891,57.0734061 C67.6465411,61.2467577 60.5122308,62.429427 49.8741582,60.6214139 C41.139739,68.0792949 33.4724832,70.5584133 26.872391,68.0587688 C20.2722988,65.5591244 16.1129378,58.6009268 14.3943081,47.1841759 C7.9292161,44.8231259 4.18587078,40.5950672 3.16427219,34.5 C2.14267359,28.4049328 5.88601891,23.5346112 14.3943081,19.8890352 Z" id="Path-2" fill="#6F5BE0"></path>
+                <text id="Z" font-family="Sarabun-Bold, Sarabun" font-size="18" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="21.172" y="30">Z</tspan>
+                </text>
+                <text id="Z-Copy" font-family="Sarabun-Bold, Sarabun" font-size="18" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="34.172" y="40">Z</tspan>
+                </text>
+                <text id="Z-Copy-2" font-family="Sarabun-Bold, Sarabun" font-size="18" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="47.172" y="49">Z</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

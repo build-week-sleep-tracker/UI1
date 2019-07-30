@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="81px" viewBox="0 0 119 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cloud-Logo">
+            <g id="Group">
+                <circle id="Oval" fill="#6F5BE0" cx="8.5" cy="63.9101619" r="5.5"></circle>
+                <circle id="Oval" fill="#6F5BE0" cx="3.5" cy="76.9101619" r="3.5"></circle>
+                <path d="M14.5168152,19.8656083 C17.0561991,6.62186945 21.2410861,0 27.0714764,0 C32.9018666,0 38.1968011,2.53382145 42.9562799,7.60146435 C54.0787335,4.0840345 62.3772789,4.0840345 67.851916,7.60146435 C73.3265531,11.1188942 74.6254768,20.577107 71.7486869,35.9761029 C75.4015156,45.8277188 75.4015156,52.8377448 71.7486869,57.0061807 C68.0958582,61.1746165 60.9177645,62.3558927 50.2144059,60.5500093 C41.4263833,67.9991059 33.7120735,70.4753041 27.0714764,67.9786039 C20.4308792,65.4819038 16.2459922,58.531902 14.5168152,47.1285987 C8.01204681,44.7703297 4.24572851,40.5472512 3.21786035,34.4593632 C2.18999219,28.3714753 5.95631049,23.5068903 14.5168152,19.8656083 Z" id="Path-2" fill="#6F5BE0"></path>
+                <text id="Z" font-family="Sarabun-Bold, Sarabun" font-size="18" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="20.9386667" y="30.204918">Z</tspan>
+                </text>
+                <text id="Z-Copy" font-family="Sarabun-Bold, Sarabun" font-size="18" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="34.2553333" y="39.647541">Z</tspan>
+                </text>
+                <text id="Z-Copy-2" font-family="Sarabun-Bold, Sarabun" font-size="18" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="47.572" y="49.0901639">Z</tspan>
+                </text>
+                <text id="Sleep-Tracker" font-family="Sarabun-SemiBold, Sarabun" font-size="12" font-weight="500" fill="#FFFFFF">
+                    <tspan x="46.134" y="74">Sleep Tracker</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

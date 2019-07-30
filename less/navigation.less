@@ -1,4 +1,23 @@
 //Navigation Styles here
 nav {
-    background-color: #0f0359;
+    .flex-box(flex, space-between);
+    background-color: @nav-bg;
+    align-items: center;
+
+    a {
+        margin: .5%;
+    }
+
+    button {
+        background-color: @btn-bg;
+        .flex-box(flex, center);
+        height: 40px;
+        width: 100px;
+        border-radius: 5px;
+        align-content: center;
+        margin: 1%;
+        font-weight: bold;
+        font-size: 18px;
+        color: #0A3F61;
+    }
 }
