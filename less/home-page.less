@@ -4,6 +4,11 @@
     max-width: 1000px;
     width: 100%;
     margin: 0 auto; 
+
+    @media @phone {
+        margin: auto;
+        width: 100%;
+    }
     
     .top-section {
         .flex-box(flex, start);
@@ -31,15 +36,26 @@
             background-color: #1E8AD2;
             width: 240px;
             height: 40px;
-            border-radius: 5px;
+            border-radius: 10px;
             border-style: none;
+
+            @media @phone {
+                width: 100px;
+            }
         }
     }
     
     .lower-section {
         .flex-box(flex, space-evenly);
+        background-color: white;
         flex-wrap: wrap;
         padding: 0 1% 2% 0; 
+
+        @media @phone {
+            flex-direction: column;
+            align-items: center;
+            text-align: center
+        }
 
         .feature-description{
             width: 100%;
@@ -57,7 +73,7 @@
             margin: 1%;
 
             h3{
-                padding: 10%;
+                padding-bottom: 15%;
             }
         }
     }
