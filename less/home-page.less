@@ -63,20 +63,7 @@
         @media @phone {
             flex-direction: column;
             align-items: center;
-            text-align: center
-        }
-
-        .feature-description{
-            width: 100%;
-            margin: 2%;
-            padding: 0;
-            font-size: 3rem; 
-
-            @media @phone {
-                margin: 2% 0%;
-                font-size: 2rem;
-
-            }
+            padding: 1% 0; 
         }
 
         div { 
@@ -85,31 +72,101 @@
             width: 300px;
             margin: 1%;
 
-            .sleep-quality {
-                background-image: url('../assets/ckinga-cichewicz-5NzOfwXoH88-unsplash.jpg');
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-
-            .feature-2 {
-                background-image: url('../assets/benjamin-voros-X63FTIZFbZo-unsplash.jpg');
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-
-            .sleep-insights {
-                background-image: url('../assets/rodion-kutsaev-xkEtD4Stn0I-unsplash.jpg');
-                //background-size: cover;
-                background-repeat: no-repeat;
+            @media @phone {
+               width: 100%;
+               margin: 1% 0%;
             }
         }
+
+        .feature-description{
+            color: @bordeux;
+            width: 100%;
+            margin: 2%;
+            padding: 0;
+            font-size: 3rem; 
+
+            @media @phone {
+                .flex-box(flex, center);
+                margin: 4% 0%;
+                font-size: 2rem;
+            }
+        }
+
+        .feature-sleep-quality {
+            .flex-box(flex, initial);
+            flex-direction: column;
+            background-image: url('../assets/kinga-cichewicz-5NzOfwXoH88-unsplash.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .feature-alarm {
+            .flex-box(flex, initial);
+            flex-direction: column;
+            background-image: url('../assets/benjamin-voros-X63FTIZFbZo-unsplash.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .feature-mood {
+            .flex-box(flex, initial);
+            flex-direction: column;
+            background-image: url('../assets/matthew-henry-2Ts5HnA67k8-unsplash.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .feature-cosleep {
+            .flex-box(flex, initial);
+            flex-direction: column;
+            background-image: url('../assets/simon-matzinger-HSy0QXIRafg-unsplash.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            h3, h4 {
+                color: @bordeux;
+            }
+        }
+
+        .feature-device {
+            .flex-box(flex, initial);
+            flex-direction: column;
+            background-image: url('../assets/dogukan-sahin-Q4KQWFKX0Gs-unsplash.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+            h3, h4 {
+                color: @bordeux;
+            }
+        }
+
+        .feature-insights {
+            .flex-box(flex, initial);
+            flex-direction: column;
+            background-image: url('../assets/rodion-kutsaev-xkEtD4Stn0I-unsplash.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
     }
     footer {
         .flex-box(flex, flex-end);
         padding: 2%;
+        width: 100%;
+
+        @media @phone {
+            .flex-box(flex, space-evenly);
+            padding: 0;
+        }
 
         p{
             padding: 0 3%;
+
+            @media @phone {
+                padding: 0;
+            }
         }
+
+        
     }
 }
