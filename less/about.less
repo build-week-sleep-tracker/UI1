@@ -1,6 +1,4 @@
-// Main Content
-
-.container-home {
+.container-about {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto; 
@@ -10,10 +8,10 @@
         width: 100%;
     }
     
-    .top-section {
-        .flex-box(flex, start);
+    .about-why {
+        .flex-box(flex, flex-end);
         align-items: center;
-        background-image: url('../assets/christopher-jolly-GqbU78bdJFM-unsplash.jpg');
+        background-image: url('../assets/bruce-mars-wBuPCQiweuA-unsplash.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         height: 360px;
@@ -24,37 +22,27 @@
            align-items: normal;
         }
 
-        .sleep-title{
+        .about-title{
             margin: 2% 0%;
+            font-size: 5rem; 
+            color: #100359;
         }
 
-        .sleep-subtitle{
+        .about-subtitle{
             margin: 4% 0%;
             width: 330px;
             line-height: 150%;
+            color: #100359;
+
 
             @media @phone {
                 width: 220px;
             }
         }
-
-        .main-cta {
-            margin: 2% 0%;
-            color: #f6f4f9;
-            font-size: 16px;
-            background-color: #1E8AD2;
-            width: 240px;
-            height: 40px;
-            border-radius: 10px;
-            border-style: none;
-
-            @media @phone {
-                width: 100px;
-            }
-        }
+        
     }
     
-    .lower-section {
+    .about-team {
         .flex-box(flex, space-evenly);
         background-color: white;
         flex-wrap: wrap;
@@ -78,12 +66,13 @@
             }
         }
 
-        .feature-description{
+        .team-members{
             color: @bordeux;
+            text-align: center;
             width: 100%;
             margin: 2%;
             padding: 0;
-            font-size: 3rem; 
+            font-size: 4rem; 
 
             @media @phone {
                 .flex-box(flex, center);
@@ -92,61 +81,74 @@
             }
         }
 
-        .feature-sleep-quality {
+        .patrick {
             .flex-box(flex, initial);
+            align-items: center;
             flex-direction: column;
             background-image: url('../assets/kinga-cichewicz-5NzOfwXoH88-unsplash.jpg');
             background-size: cover;
             background-repeat: no-repeat;
+            border-radius: 10px;
         }
 
-        .feature-alarm {
+        .harper {
             .flex-box(flex, initial);
+            align-items: center;
             flex-direction: column;
             background-image: url('../assets/benjamin-voros-X63FTIZFbZo-unsplash.jpg');
             background-size: cover;
             background-repeat: no-repeat;
+            border-radius: 10px;
         }
 
-        .feature-mood {
+        .aaron {
             .flex-box(flex, initial);
+            align-items: center;
             flex-direction: column;
             background-image: url('../assets/matthew-henry-2Ts5HnA67k8-unsplash.jpg');
             background-size: cover;
             background-repeat: no-repeat;
+            border-radius: 10px;
         }
 
-        .feature-cosleep {
+        .alec {
             .flex-box(flex, initial);
+            align-items: center;
             flex-direction: column;
             background-image: url('../assets/simon-matzinger-HSy0QXIRafg-unsplash.jpg');
             background-size: cover;
             background-repeat: no-repeat;
-
-            h3, h4 {
-                color: @bordeux;
-            }
+            border-radius: 10px;
         }
 
-        .feature-device {
+        .connor {
             .flex-box(flex, initial);
+            align-items: center;
             flex-direction: column;
-            background-image: url('../assets/dogukan-sahin-Q4KQWFKX0Gs-unsplash.jpg');
+            background-image: url('../assets/simon-matzinger-HSy0QXIRafg-unsplash.jpg');
             background-size: cover;
             background-repeat: no-repeat;
-            
-            h3, h4 {
-                color: @bordeux;
-            }
+            border-radius: 10px;
         }
 
-        .feature-insights {
+        .edward {
             .flex-box(flex, initial);
+            align-items: center;
             flex-direction: column;
-            background-image: url('../assets/rodion-kutsaev-xkEtD4Stn0I-unsplash.jpg');
+            background-image: url('../assets/simon-matzinger-HSy0QXIRafg-unsplash.jpg');
             background-size: cover;
             background-repeat: no-repeat;
-            opacity: 75%;
+            border-radius: 10px;
+        }
+
+        .matthew {
+            .flex-box(flex, initial);
+            align-items: center;
+            flex-direction: column;
+            background-image: url('../assets/simon-matzinger-HSy0QXIRafg-unsplash.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 10px;
         }
         
     }

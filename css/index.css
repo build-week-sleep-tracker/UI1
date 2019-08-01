@@ -164,6 +164,7 @@ h3 {
 @media (max-width: 500px) {
   h3 {
     font-size: 2rem;
+    margin: 3% 5% 0;
   }
 }
 h4 {
@@ -179,6 +180,7 @@ p {
   font-size: 1rem;
   font-weight: normal;
   color: #f6f4f9;
+  text-decoration: underline;
 }
 .container {
   max-width: 800px;
@@ -216,7 +218,8 @@ nav .nav-button .mobile-menu {
 }
 @media (max-width: 500px) {
   nav .nav-button .mobile-menu {
-    display: visible;
+    display: flex;
+    width: 100%;
   }
 }
 nav .nav-button button {
@@ -389,6 +392,7 @@ nav .nav-button button {
   background-image: url('../assets/rodion-kutsaev-xkEtD4Stn0I-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 75%;
 }
 .container-home footer {
   display: flex;
@@ -400,14 +404,191 @@ nav .nav-button button {
   .container-home footer {
     display: flex;
     justify-content: space-evenly;
-    padding: 0;
+    padding: 5% 0;
   }
 }
-.container-home footer p {
+.container-home footer a {
   padding: 0 3%;
 }
 @media (max-width: 500px) {
-  .container-home footer p {
+  .container-home footer a {
+    padding: 0;
+  }
+}
+.container-about {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .container-about {
+    margin: auto;
+    width: 100%;
+  }
+}
+.container-about .about-why {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url('../assets/bruce-mars-wBuPCQiweuA-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 360px;
+  padding: 5%;
+}
+@media (max-width: 500px) {
+  .container-about .about-why {
+    height: 200px;
+    align-items: normal;
+  }
+}
+.container-about .about-why .about-title {
+  margin: 2% 0%;
+  font-size: 5rem;
+  color: #100359;
+}
+.container-about .about-why .about-subtitle {
+  margin: 4% 0%;
+  width: 330px;
+  line-height: 150%;
+  color: #100359;
+}
+@media (max-width: 500px) {
+  .container-about .about-why .about-subtitle {
+    width: 220px;
+  }
+}
+.container-about .about-team {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  flex-wrap: wrap;
+  padding: 0 1% 2% 0;
+}
+@media (max-width: 500px) {
+  .container-about .about-team {
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 0;
+  }
+}
+.container-about .about-team div {
+  display: flex;
+  justify-content: initial;
+  height: 200px;
+  width: 300px;
+  margin: 1%;
+}
+@media (max-width: 500px) {
+  .container-about .about-team div {
+    width: 100%;
+    margin: 1% 0%;
+  }
+}
+.container-about .about-team .team-members {
+  color: #0f0359;
+  text-align: center;
+  width: 100%;
+  margin: 2%;
+  padding: 0;
+  font-size: 4rem;
+}
+@media (max-width: 500px) {
+  .container-about .about-team .team-members {
+    display: flex;
+    justify-content: center;
+    margin: 4% 0%;
+    font-size: 2rem;
+  }
+}
+.container-about .about-team .patrick {
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../assets/kinga-cichewicz-5NzOfwXoH88-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.container-about .about-team .harper {
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../assets/benjamin-voros-X63FTIZFbZo-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.container-about .about-team .aaron {
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../assets/matthew-henry-2Ts5HnA67k8-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.container-about .about-team .alec {
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../assets/simon-matzinger-HSy0QXIRafg-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.container-about .about-team .connor {
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../assets/simon-matzinger-HSy0QXIRafg-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.container-about .about-team .edward {
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../assets/simon-matzinger-HSy0QXIRafg-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.container-about .about-team .matthew {
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../assets/simon-matzinger-HSy0QXIRafg-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.container-about footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2%;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .container-about footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 0;
+  }
+}
+.container-about footer a {
+  padding: 0 3%;
+}
+@media (max-width: 500px) {
+  .container-about footer a {
     padding: 0;
   }
 }
