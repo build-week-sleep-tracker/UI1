@@ -1,0 +1,199 @@
+// Main Content
+
+.container-home {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto; 
+
+    @media @phone {
+        margin: auto;
+        width: 100%;
+    }
+
+    @media @tablet {
+        margin: auto;
+        width: 100%;
+    }
+    
+    .top-section {
+        .flex-box(flex, start);
+        align-items: center;
+        background-image: url('../assets/christopher-jolly-GqbU78bdJFM-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 360px;
+        padding: 5%;
+
+        @media @phone {
+           height: 200px;
+           align-items: normal;
+        }
+
+        // .image-text {
+        //     margin-bottom: 100px;
+        // }
+
+        .sleep-title{
+            margin: 2% 0%;
+        }
+
+        .sleep-subtitle{
+            margin: 4% 0%;
+            width: 330px;
+            line-height: 150%;
+
+            @media @phone {
+                width: 220px;
+            }
+        }
+
+        .main-cta {
+            margin: 2% 0%;
+            color: #f6f4f9;
+            font-size: 16px;
+            background-color: #1E8AD2;
+            width: 240px;
+            height: 40px;
+            border-radius: 10px;
+            border-style: none;
+
+            @media @phone {
+                width: 100px;
+            }
+        }
+    }
+    
+    .lower-section {
+        .flex-box(flex, space-evenly);
+        background-color: white;
+        flex-wrap: wrap;
+        padding: 0 1% 2% 0; 
+
+        @media @phone {
+            flex-direction: column;
+            align-items: center;
+            padding: 1% 0;
+        }
+
+        div { 
+            .flex-box(flex, initial);
+            height: 200px;
+            width: 300px;
+            margin: 1%;
+
+            @media @phone {
+               width: 100%;
+               margin: 1% 0%;
+            }
+        }
+
+        .feature-description{
+            color: @bordeux;
+            width: 100%;
+            margin: 2%;
+            padding: 0;
+            font-size: 3rem; 
+
+            @media @phone {
+                .flex-box(flex, center);
+                margin: 4% 0%;
+                font-size: 2rem;
+            }
+        }
+
+        .feature-sleep-quality {
+            .flex-box(flex, initial);
+            flex-direction: column;
+            background-image: url('../assets/kinga-cichewicz-5NzOfwXoH88-unsplash.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .feature-alarm {
+            .flex-box(flex, initial);
+            flex-direction: column;
+            background-image: url('../assets/benjamin-voros-X63FTIZFbZo-unsplash.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .feature-mood {
+            .flex-box(flex, initial);
+            flex-direction: column;
+            background-image: url('../assets/matthew-henry-2Ts5HnA67k8-unsplash.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            .mood-text {
+                width: 180px;
+
+                @media @phone {
+                    width: 150px;
+                }
+            }
+        }
+
+        .feature-cosleep {
+            .flex-box(flex, initial);
+            flex-direction: column;
+            background-image: url('../assets/simon-matzinger-HSy0QXIRafg-unsplash.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            h3, h4 {
+                color: @bordeux;
+            }
+        }
+
+        .feature-device {
+            .flex-box(flex, initial);
+            flex-direction: column;
+            background-image: url('../assets/dogukan-sahin-Q4KQWFKX0Gs-unsplash.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+            h3, h4 {
+                color: @bordeux;
+            }
+        }
+
+        .feature-insights {
+            .flex-box(flex, initial);
+            flex-direction: column;
+            background-image: url('../assets/rodion-kutsaev-xkEtD4Stn0I-unsplash.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+    }
+    footer {
+        .flex-box(flex, flex-end);
+        padding: 2%;
+        width: 100%;
+
+        @media @phone {
+            .flex-box(flex, space-evenly);
+            padding: 5% 0;
+        }
+
+        @media @tablet {
+            .flex-box(flex, space-evenly);
+            margin: auto;
+            width: 100%;
+            padding: 5% 0;
+        }
+
+        a {
+            padding: 0 3%;
+
+            @media @phone {
+                padding: 0;
+            }
+        }
+
+        
+    }
+}

@@ -1,0 +1,55 @@
+//Navigation Styles here
+nav {
+    .flex-box(flex, space-between);
+    background-color: @nav-bg;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto; 
+
+    div {
+        margin: 0.5% 0 0 1%;
+
+        p {
+            @media @phone {
+                display: none;
+            }
+        }
+    }
+
+    .nav-button {
+        margin-right: 2%;
+
+        @media @phone {
+            margin-right: 5%;
+        }
+
+        button {
+            background-color: @btn-bg;
+            .flex-box(flex, center);
+            height: 40px;
+            width: 110px;
+            border-radius: 5px;
+            align-content: center;
+            margin: 1% 2%;
+            font-weight: bold;
+            font-size: 18px;
+            color: #0A3F61;
+
+            @media @phone {
+                display: none;
+            }
+        }
+    }
+
+    .hamburger {
+        display: none;
+
+        @media @phone {
+            display: flex;
+            width: 100%;
+            color: white;
+        }
+
+    }
+}

@@ -1,0 +1,191 @@
+.container-about {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto; 
+
+    @media @phone {
+        margin: auto;
+        width: 100%;
+    }
+    
+    .about-why {
+        .flex-box(flex, flex-end);
+        align-items: center;
+        background-image: url('../assets/bruce-mars-wBuPCQiweuA-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 360px;
+        padding: 1%;
+
+        @media @phone {
+           height: 200px;
+           align-items: normal;
+        }
+
+        .about-title{
+            margin: 2% 0%;
+            font-size: 5rem; 
+            color: #100359;
+        }
+
+        .about-subtitle{
+            text-align: right;
+            margin: 4% 0%;
+            width: 330px;
+            line-height: 150%;
+            color: #100359;
+
+
+            @media @phone {
+                width: 250px;
+            }
+        }
+        
+    }
+    
+    .about-team {
+        .flex-box(flex, space-evenly);
+        background-color: white;
+        flex-wrap: wrap;
+        padding: 0 1% 2% 0; 
+
+        @media @phone {
+            flex-direction: column;
+            align-items: center;
+            padding: 1% 0;
+        }
+
+        div { 
+            .flex-box(flex, initial);
+            height: 200px;
+            width: 300px;
+            margin: 1%;
+
+            @media @phone {
+               width: 100%;
+               margin: 1% 0%;
+            }
+        }
+
+        .team-members{
+            color: @bordeux;
+            text-align: center;
+            width: 100%;
+            margin: 2%;
+            padding: 0;
+            font-size: 4rem; 
+
+            @media @phone {
+                .flex-box(flex, center);
+                margin: 4% 0%;
+                font-size: 2rem;
+            }
+        }
+
+        .about-font {
+            margin: 10px 0;
+            text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+        }
+
+        .patrick {
+            .flex-box(flex, flex-end);
+            align-items: center;
+            flex-direction: column;
+            background-image: url('../assets/team/patrick.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+
+        }
+
+        .harper {
+            .flex-box(flex, flex-end);
+            align-items: center;
+            flex-direction: column;
+            background-image: url('../assets/team/harper.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 10px;
+        }
+
+        .aaron {
+            .flex-box(flex, flex-end);
+            align-items: center;
+            flex-direction: column;
+            background-image: url('../assets/team/aaron.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+        }
+
+        .alec {
+            .flex-box(flex, flex-end);
+            align-items: center;
+            flex-direction: column;
+            background-image: url('../assets/team/alec.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 10px;
+        }
+
+        .connor {
+            .flex-box(flex, flex-end);;
+            align-items: center;
+            flex-direction: column;
+            background-image: url('../assets/team/connor.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 10px;
+        }
+
+        .edward {
+            .flex-box(flex, flex-end);
+            align-items: center;
+            flex-direction: column;
+            background-image: url('../assets/team/edward.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+        }
+
+        .matthew {
+            .flex-box(flex, flex-end);
+            align-items: center;
+            flex-direction: column;
+            background-image: url('../assets/team/matthew.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 10px;
+        }
+        
+    }
+    footer {
+        .flex-box(flex, flex-end);
+        padding: 2%;
+        width: 100%;
+
+        @media @phone {
+            .flex-box(flex, space-evenly);
+            padding: 5% 0;
+        }
+
+        a {
+            padding: 0 3%;
+
+            @media @phone {
+                padding: 0;
+            }
+        }
+
+        
+    }
+}
