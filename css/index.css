@@ -187,6 +187,16 @@ p {
   color: #f6f4f9;
   text-decoration: underline;
 }
+@media (max-width: 800px) {
+  p {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  p {
+    font-size: 1.2rem;
+  }
+}
 .container {
   max-width: 800px;
   width: 100%;
@@ -207,24 +217,20 @@ nav {
   width: 100%;
   margin: 0 auto;
 }
-nav a {
+nav div {
   margin: 0.5% 0 0 1%;
 }
 @media (max-width: 500px) {
-  nav a p {
+  nav div p {
     display: none;
   }
 }
 nav .nav-button {
   margin-right: 2%;
 }
-nav .nav-button .mobile-menu {
-  display: none;
-}
 @media (max-width: 500px) {
-  nav .nav-button .mobile-menu {
-    display: flex;
-    width: 100%;
+  nav .nav-button {
+    margin-right: 5%;
   }
 }
 nav .nav-button button {
@@ -245,12 +251,28 @@ nav .nav-button button {
     display: none;
   }
 }
+nav .hamburger {
+  display: none;
+}
+@media (max-width: 500px) {
+  nav .hamburger {
+    display: flex;
+    width: 100%;
+    color: white;
+  }
+}
 .container-home {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
 @media (max-width: 500px) {
+  .container-home {
+    margin: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
   .container-home {
     margin: auto;
     width: 100%;
@@ -365,9 +387,17 @@ nav .nav-button button {
   justify-content: initial;
   flex-direction: column;
   background-image: url('../assets/matthew-henry-2Ts5HnA67k8-unsplash.jpg');
-  background-size: 300px 200px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.container-home .lower-section .feature-mood .mood-text {
+  width: 180px;
+}
+@media (max-width: 500px) {
+  .container-home .lower-section .feature-mood .mood-text {
+    width: 150px;
+  }
 }
 .container-home .lower-section .feature-cosleep {
   display: flex;
@@ -411,6 +441,15 @@ nav .nav-button button {
   .container-home footer {
     display: flex;
     justify-content: space-evenly;
+    padding: 5% 0;
+  }
+}
+@media (max-width: 800px) {
+  .container-home footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 100%;
     padding: 5% 0;
   }
 }
@@ -511,6 +550,7 @@ nav .nav-button button {
   }
 }
 .container-about .about-team .about-font {
+  margin: 10px 0;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .container-about .about-team .patrick {

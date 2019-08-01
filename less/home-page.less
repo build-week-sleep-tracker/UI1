@@ -9,6 +9,11 @@
         margin: auto;
         width: 100%;
     }
+
+    @media @tablet {
+        margin: auto;
+        width: 100%;
+    }
     
     .top-section {
         .flex-box(flex, start);
@@ -24,6 +29,10 @@
            height: 200px;
            align-items: normal;
         }
+
+        // .image-text {
+        //     margin-bottom: 100px;
+        // }
 
         .sleep-title{
             margin: 2% 0%;
@@ -114,9 +123,17 @@
             .flex-box(flex, initial);
             flex-direction: column;
             background-image: url('../assets/matthew-henry-2Ts5HnA67k8-unsplash.jpg');
-            background-size: 300px 200px;
+            background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
+
+            .mood-text {
+                width: 180px;
+
+                @media @phone {
+                    width: 150px;
+                }
+            }
         }
 
         .feature-cosleep {
@@ -159,6 +176,13 @@
 
         @media @phone {
             .flex-box(flex, space-evenly);
+            padding: 5% 0;
+        }
+
+        @media @tablet {
+            .flex-box(flex, space-evenly);
+            margin: auto;
+            width: 100%;
             padding: 5% 0;
         }
 

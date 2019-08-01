@@ -8,27 +8,33 @@
 <title>Sleep Tracker</title>
 
 <link href="https://fonts.googleapis.com/css?family=Sarabun&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/35cf57b03e.js"></script>
 <link href="css/index.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/35cf57b03e.js"></script>
 
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="index.html">
-                <img src="assets/Cloud Logo w_ Text.svg" alt="Sleep Tracker Logo">
-            </a>
-            <a class="nav-button">
-                <button onclick="window.location.href = 'http://bw-sleep-tracker-fe.netlify.com/login';">Sign In</button>
-                <i class="fas fa-bars fa-3x"></i>
-            </a>
+            <div>
+                <a href="index.html">
+                    <img src="assets/Cloud Logo w_ Text.svg" alt="Sleep Tracker Logo">
+                </a>
+            </div>
+            <div class="nav-button">
+                <a>
+                    <button onclick="window.location.href = 'http://bw-sleep-tracker-fe.netlify.com/login';">Sign In</button>
+                </a>
+                <a class="hamburger">
+                    <i class="fas fa-bars fa-3x"></i>
+                </a>
+            </div>
         </nav>
     </header>
 
     <div class="container-home">
         <section class="top-section">
-            <div class="image-placeholder">
+            <div class="image-text">
                 <h1 class="sleep-title">Sleep Tracker</h1>
                 <h2 class="sleep-subtitle">Helping you build healthy sleep habits one night at a time</h2>
                 <button class="main-cta" onclick="window.location.href = 'http://bw-sleep-tracker-fe.netlify.com/login';">Sign Up</button>
@@ -46,7 +52,7 @@
             </div>
             <div class="feature-mood">
                 <h3>Mood Tracking</h3>
-                <h4>How does your sleep affect your mood?</h4>
+                <h4 class="mood-text">How does your sleep affect your mood?</h4>
             </div>
             <div class="feature-cosleep">
                 <h3>Co-Sleeping Mode</h3>
