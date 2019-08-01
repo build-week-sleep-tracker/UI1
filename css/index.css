@@ -159,7 +159,7 @@ h3 {
   font-family: 'Sarabun', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
-  margin: 5%;
+  margin: 3% 5%;
 }
 @media (max-width: 500px) {
   h3 {
@@ -177,7 +177,7 @@ h4 {
 }
 p {
   font-family: 'Sarabun', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: normal;
   color: #f6f4f9;
   text-decoration: underline;
@@ -433,8 +433,9 @@ nav .nav-button button {
   background-image: url('../assets/bruce-mars-wBuPCQiweuA-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 360px;
-  padding: 5%;
+  padding: 1%;
 }
 @media (max-width: 500px) {
   .container-about .about-why {
@@ -448,6 +449,7 @@ nav .nav-button button {
   color: #100359;
 }
 .container-about .about-why .about-subtitle {
+  text-align: right;
   margin: 4% 0%;
   width: 330px;
   line-height: 150%;
@@ -501,74 +503,81 @@ nav .nav-button button {
     font-size: 2rem;
   }
 }
+.container-about .about-team .about-font {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
 .container-about .about-team .patrick {
   display: flex;
-  justify-content: initial;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  background-image: url('../assets/kinga-cichewicz-5NzOfwXoH88-unsplash.jpg');
+  background-image: url('../assets/team/patrick.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
 }
 .container-about .about-team .harper {
   display: flex;
-  justify-content: initial;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  background-image: url('../assets/benjamin-voros-X63FTIZFbZo-unsplash.jpg');
+  background-image: url('../assets/team/harper.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   border-radius: 10px;
 }
 .container-about .about-team .aaron {
   display: flex;
-  justify-content: initial;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  background-image: url('../assets/matthew-henry-2Ts5HnA67k8-unsplash.jpg');
+  background-image: url('../assets/team/aaron.png');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
 }
 .container-about .about-team .alec {
   display: flex;
-  justify-content: initial;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  background-image: url('../assets/simon-matzinger-HSy0QXIRafg-unsplash.jpg');
+  background-image: url('../assets/team/alec.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   border-radius: 10px;
 }
 .container-about .about-team .connor {
   display: flex;
-  justify-content: initial;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  background-image: url('../assets/simon-matzinger-HSy0QXIRafg-unsplash.jpg');
+  background-image: url('../assets/team/connor.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   border-radius: 10px;
 }
 .container-about .about-team .edward {
   display: flex;
-  justify-content: initial;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  background-image: url('../assets/simon-matzinger-HSy0QXIRafg-unsplash.jpg');
+  background-image: url('../assets/team/edward.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
 }
 .container-about .about-team .matthew {
   display: flex;
-  justify-content: initial;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  background-image: url('../assets/simon-matzinger-HSy0QXIRafg-unsplash.jpg');
+  background-image: url('../assets/team/matthew.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   border-radius: 10px;
 }
 .container-about footer {
